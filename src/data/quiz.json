@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "question": "What’s the diameter of a basketball hoop in inches?",
+            "options": ["14 inches", "16 inches", "18 inches"],
+            "answer": "18 inches"
+        },
+        {
+            "question": "How big is an Olympic sized swimming pool in meters? ",
+            "options": ["50m x 30m", "50m x 25m", "60m x 30m"],
+            "answer": "50m x 25m"
+        },
+        {
+            "question": "In professional basketball, how high is the basketball hoop from the ground?",
+            "options": ["10ft", "11ft", "12ft"],
+            "answer": "10ft"
+        },
+        {
+            "question": "The Summer Olympics are held every how many years?",
+            "options": ["2 years", "4 years", "6 years"],
+            "answer": "4 years"
+        },
+        {
+            "question": "What sport is dubbed the 'king of sports?'",
+            "options": ["Hockey", "Football", "Soccer"],
+            "answer": "Soccer" 
+        },
+        {
+            "question": "In American Football, a touchdown is worth how many points?",
+            "options": ["3 points", "6 points", "9 points"],
+            "answer": "6 points"
+        },
+        {
+            "question": "What is Canada's national sport?",
+            "options": ["Hockey", "Lacrosse", "Cross country skiing"],
+            "answer": "Lacrosse"
+        }
+    ]
+}
