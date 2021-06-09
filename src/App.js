@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Header from './components/Header'
 import QuizEnd from './components/QuizEnd'
-import Modal from './components/Modal'
-import Questions from './components/Questions'
+//import QuizModal from './components/QuizModal'
+import Questions from './components/Questions/Questions'
 import quizData from './data/quiz.json'
 
 let interval;
@@ -12,8 +12,11 @@ function App() {
   const [step, setStep] = useState(1);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
-  const [showModal, setShowModal] = useState(false);
   const [time, setTime] = useState(0);
+  //const [score, setScore] = useState(0);
+  //const [correct, setCorrect] = useState('')
+  //const correct = useRef(false)
+  //const [category,  setCategory] = useState(0);
 
   useEffect(() => {
     if(step === 3) {
@@ -36,6 +39,7 @@ function App() {
     interval = setInterval(() => {
       setTime(prevTime => prevTime + 1);
     }, 1000);
+
   }
 
   return (
@@ -48,18 +52,14 @@ function App() {
         currentQuestion={currentQuestion}
         onSetCurrentQuestion={setCurrentQuestion}
         onSetStep={setStep} 
+        //score={score}
+        //onSetScore={setScore}
       />}
       {step === 3 && <QuizEnd 
         results={answers}
         data={quizData.data}
         onReset={resetClickHandler}
-        onAnswersCheck={() => setShowModal(true)}
         time={time}
-      />}
-      {showModal && <Modal 
-        onClose={() => setShowModal(false)}
-        results={answers}
-        data={quizData.data}
       />}
     </div>
   );

@@ -1,39 +1,197 @@
 {
     "data": [
         {
+            "category": "Sports",
             "question": "What’s the diameter of a basketball hoop in inches?",
             "options": ["14 inches", "16 inches", "18 inches"],
             "answer": "18 inches"
         },
         {
+            "category": "Sports",
             "question": "How big is an Olympic sized swimming pool in meters? ",
             "options": ["50m x 30m", "50m x 25m", "60m x 30m"],
             "answer": "50m x 25m"
         },
         {
+            "category": "Sports",
             "question": "In professional basketball, how high is the basketball hoop from the ground?",
             "options": ["10ft", "11ft", "12ft"],
             "answer": "10ft"
         },
         {
+            "category": "Sports",
             "question": "The Summer Olympics are held every how many years?",
             "options": ["2 years", "4 years", "6 years"],
             "answer": "4 years"
         },
         {
+            "category": "Sports",
             "question": "What sport is dubbed the 'king of sports?'",
             "options": ["Hockey", "Football", "Soccer"],
             "answer": "Soccer" 
         },
         {
+            "category": "Sports",
             "question": "In American Football, a touchdown is worth how many points?",
             "options": ["3 points", "6 points", "9 points"],
             "answer": "6 points"
         },
         {
+            "category": "Sports",
             "question": "What is Canada's national sport?",
             "options": ["Hockey", "Lacrosse", "Cross country skiing"],
             "answer": "Lacrosse"
+        },
+        {
+            "category": "Sports",
+            "question": "How many players are on a baseball team?",
+            "options": ["9 players", "15 players", "20 players"],
+            "answer": "9 players"
+        },
+        {
+            "category": "Science",
+            "question": "This essential gas is important so that we can breathe?",
+            "options": ["Oxygen", "Nitrogen", "Helium"],
+            "answer": "Oxygen"
+        },
+        {
+            "category": "Science",
+            "question": "What is the nearest planet to the sun?",
+            "options": ["Mars", "Pluto", "Mercury"],
+            "answer": "Mercury"
+        },
+        {
+            "category": "Science",
+            "question": "What is the largest planet in the solar system?",
+            "options": ["Earth", "Saturn", "Jupiter"],
+            "answer": "Jupiter"
+        },
+        {
+            "category": "Science",
+            "question": "What is the rarest blood type?",
+            "options": ["O positive", "AB negative", "B negative"],
+            "answer": "AB negative"
+        },
+        {
+            "category": "Science",
+            "question": "On what part of your body would you find the  pinna?",
+            "options": ["Ear", "Eye", "Nose"],
+            "answer": "Ear"
+        },
+        {
+            "category": "Science",
+            "question": "What tissue connects muscles to bones?",
+            "options": ["Tendons", "Fibres", "Ligaments"],
+            "answer": "Tendons"
+        },
+        {
+            "category": "Science",
+            "question": "Sounds travels faster in air than in water?",
+            "options": ["True", "False"],
+            "answer": "False"
+        },
+        {
+            "category": "Science",
+            "question": "How long does a human red blood cell survive?",
+            "options": ["10 days", "120 days", "2 years"],
+            "answer": "120 days"
+        },
+        {
+            "category": "Music",
+            "question": "Who was the very first American Idol winner?",
+            "options": ["Kelly Clarkson", "Ryan  Starr", "Hilary Duff"],
+            "answer": "Kelly Clarkson"
+        },
+        {
+            "category": "Music",
+            "question": "Before Miley Cyrus recorded 'Wrecking Ball', it was offered to which singer?",
+            "options": ["Alicia Keys", "Beyonce", "Leona Lewis"],
+            "answer": "Beyonce"
+        },
+        {
+            "category": "Music",
+            "question": "What rock icon was the founder of The Society for the Prevention of Cruelty to Long-haired Men?",
+            "options": ["David Bowie", "Peter Frampton", "Mick Jagger"],
+            "answer": "David Bowie"
+        },
+        {
+            "category": "Music",
+            "question": "Eminem's 8 Mile is named after a road in which city?",
+            "options": ["Chicago", "San Fran", "Detroit"],
+            "answer": "Detroit"
+        },
+        {
+            "category": "Music",
+            "question": "Who was  the first woman to ever inducted into the Rock  and Roll Hall of Fame?",
+            "options": ["Janice Joplin", "Aretha Franklin", "Pat Benatar"],
+            "answer": "Aretha Franklin"
+        },
+        {
+            "category": "Music",
+            "question": "Paul McCartney and John Lennon wrote which Rolling Stones song?",
+            "options": ["I wanna be your man", "Let's spend the  night together", "Ruby Tuesday"],
+            "answer": "I wanna be your man"
+        },
+        {
+            "category": "Music",
+            "question": "Which classical composer was deaf?",
+            "options": ["Wolfgang Amadeux Mozart", "Ludwig  van  Beethoven", "Johann Sebastian Bach"],
+            "answer": "Ludwig van Beethoven"
+        },
+        {
+            "category": "Music",
+            "question": "Prince introduced his iconic symbol on the cover of which single?",
+            "options": ["Purple Rain", "Little  red corvette", "1999"],
+            "answer": "1999"
+        },
+        {
+            "category": "Nature",
+            "question": "What part of the plant conducts photosynthesis?",
+            "options": ["Stem", "Flower", "Leaf"],
+            "answer": "Leaf"
+        },
+        {
+            "category": "Nature",
+            "question": "What is the largest known land animal?",
+            "options": ["Hippopotamus", "Elephant", "Giraffe"],
+            "answer": "Elephant"
+        },
+        {
+            "category": "Nature",
+            "question": "How many bones do sharks have  in total?",
+            "options": ["0 bones", "3 bones", "12 bones"],
+            "answer": "0 bones"
+        },
+        {
+            "category": "Nature",
+            "question": "Dolly was the first ever  living creature to be cloned. What type of animal was she?",
+            "options": ["Sheep", "Mouse", "Worm"],
+            "answer": "Sheep"
+        },
+        {
+            "category": "Nature",
+            "question": "What is the tallest type of grass?",
+            "options": ["Northwind switch grass", "Pampas grass", "Bamboo"],
+            "answer": "Bamboo"
+        },
+        {
+            "category": "Nature",
+            "question": "What type of tree do acorns come from?",
+            "options": ["Oak", "Red maple", "Sugar maple"],
+            "answer": "Oak"
+        },
+        {
+            "category": "Nature",
+            "question": "What is the hardest known material in nature?",
+            "options": ["Topaz", "Corundum", "Diamonds"],
+            "answer": "Diamonds"
+        },
+        {
+            "category": "Nature",
+            "question": "How old is the oldest living tree?",
+            "options": ["4800 years", "8100 years", "1300 years"],
+            "answer": "4800 years"
         }
+        
     ]
 }

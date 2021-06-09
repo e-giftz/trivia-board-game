@@ -26,7 +26,6 @@ const QuizEnd = ({ results, data, onReset, onAnswersCheck, time  }) => {
                     <p>{correctAnswers} of {data.length}</p>
                     <p><strong>{Math.floor((correctAnswers / data.length) * 100)}%</strong></p>
                     <p><strong>Your time:</strong> {formatTime(time)}</p>
-                    <Button className="btnAnswer" onClick={onAnswersCheck}>Check your Answers</Button>
                     <Button className="btnSuccess" onClick={onReset}>Try again</Button>
                 </div>
             </div>
