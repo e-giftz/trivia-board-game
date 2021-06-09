@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Header from './components/Header'
 import QuizEnd from './components/QuizEnd'
-//import QuizModal from './components/QuizModal'
 import Questions from './components/Questions/Questions'
 import quizData from './data/quiz.json'
 
@@ -13,10 +12,6 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [time, setTime] = useState(0);
-  //const [score, setScore] = useState(0);
-  //const [correct, setCorrect] = useState('')
-  //const correct = useRef(false)
-  //const [category,  setCategory] = useState(0);
 
   useEffect(() => {
     if(step === 3) {
